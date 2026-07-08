@@ -1,3 +1,4 @@
+import streamlit as st
 st.set_page_config(page_title="Mi Rincon de Practicas", page_icon="💗", layout="centered")
 st.title("🌺 Bienvenido a mi espacio de pruebas")
 st.write("Aqui voy a practicar programacion y crear cosas que me gustan")
