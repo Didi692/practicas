@@ -3,7 +3,7 @@ st.set_page_config(page_title="Mi Rincon de Practicas", page_icon="💗", layout
 st.title("🌺 Bienvenido a mi espacio de pruebas")
 st.write("Aqui voy a practicar programacion y crear cosas que me gustan")
 st.subheader("¿Que serie o grupo descubriremos hoy?")
-opcion = st.selectbox(
+option = st.selectbox(
   "Elige una opcion para ver un mensaje especial:",
   ["Selecciona uno...", "K-dramas Romanticos", "Tiktok", "Flores favoritas"]
 )
