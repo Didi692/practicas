@@ -13,7 +13,7 @@ with pestaña1:
     )
 if option == "K-dramas Romanticos":
   st.success("¡Una excelente eleccion! Nada como una buena historia de amor.")
-      st. balloons() #¡Esto lanza globos por toda la pantalla!🎈
+st.balloons() # ¡Esto lanza globos por toda la pantalla! 🎈
 elif option == "Tiktok":
   st.info("Si te distrae perfecto, pero no mucho tiempo plis Diana, sabe que tiene que estudiar")
 elif option == "Flores favoritas":
