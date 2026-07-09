@@ -22,3 +22,22 @@ elif opcion == "Flores favoritas":
 with pestaña2:
     st.subheader("El rincon de las personalidades")
     st.write("Te apasiona el MBTI o el Eneagrama? ¡Pronto haremos un test interactivo aquí!")
+
+# --- NUEVA PESTAÑA: CATÁLOGO DE K-DRAMAS ---
+with pestaña 3:
+st.subheader("💗 Catálogo de K-Dramas Románticos")
+st.write("Selecciona un K-drama para ver una breve sinopsis y un mensaje especial.")
+
+drama_seleccionado = st.selectbox(
+    "¿Que historia te gustaria descubrir?",
+    ["Selecciona uno...", "Propuesta Laboral", "True beauty", "Mi adorable demonio", "King the land"]
+)
+if drama_seleccionado = "Propuesta laboral":
+        st.success(""🏢 **Propuesta Laboral:** Una investigadora de alimentos se hace pasar por su amiga en una cita a ciegas, ¡y resulta ser su jefe! Una comedia romántica súper divertida.")
+        st.balloons()
+elif drama_seleccionado == "True beauty":
+         st.info("😘 **True beauty:** Una adolescente en un nuevo instituto despues de haber recibido bulling por parte de sus demas compañeros".)
+elif drama_seleccionado == "Mi adorable demonio":
+         st.warning(" **Mi adorable demonio**: Historia donde los protagonistas son obligados a compartir un destino, afortunadamente no se como se enamoraron son tan lindos".)
+elif drama_seleccionado == "King the land":
+         st.success("🏢 **King the land**: Una chica entra a trabajar como secretaria en un famoso hotel, y de forma vergonsoza y rencorosa conoce a lo que seria su futuro amor":)
