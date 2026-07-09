@@ -4,7 +4,7 @@ st.title("🌺 Bienvenido a mi espacio de pruebas")
 st.write("Aqui voy a practicar programacion y crear cosas que me gustan")
 
 # --- AQUI CREAMOS LAS PESTAÑAS---
-pestaña1, pestaña2 = st.tabs(["✨ Mis Gustos". "🧠 Personalidades"])
+pestaña1, pestaña2 = st.tabs(["✨ Mis Gustos", "🧠 Personalidades"])
                               with pestaña 1:
 st.subheader("¿Que serie o grupo descubriremos hoy?")
 option = st.selectbox(
