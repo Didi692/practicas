@@ -25,7 +25,7 @@ with pestaña2:
 
 # --- NUEVA PESTAÑA: CATÁLOGO DE K-DRAMAS ---
 with pestaña3:
-st.subheader("💗 Catálogo de K-Dramas Románticos")
+st.subheader("💖 Catálogo de K-Dramas Románticos")
 st.write("Selecciona un K-drama para ver una breve sinopsis y un mensaje especial.")
 
 drama_seleccionado = st.selectbox(
