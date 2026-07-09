@@ -32,7 +32,7 @@ with pestaña3:
       "¿Que historia te gustaria descubrir?",
       ["Selecciona uno...", "Propuesta Laboral", "True beauty", "Mi adorable demonio", "King the land"]
 )
-if drama_seleccionado = "Propuesta laboral":
+if drama_seleccionado == "Propuesta laboral":
         st.success("🏢 **Propuesta Laboral:** Una investigadora de alimentos se hace pasar por su amiga en una cita a ciegas, ¡y resulta ser su jefe! Una comedia romántica súper divertida.")
         st.balloons()
 elif drama_seleccionado == "True beauty":
