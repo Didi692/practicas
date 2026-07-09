@@ -15,10 +15,10 @@ if opcion == "K-dramas Romanticos":
   st.success("¡Una excelente eleccion! Nada como una buena historia de amor.")
 st.balloons() # ¡Esto lanza globos por toda la pantalla! 🎈
 elif opcion == "Tiktok":
-  st.info("Si te distrae perfecto, pero no mucho tiempo plis Diana, sabe que tiene que estudiar")
-elif opcion == "Flores favoritas":
-  st.warning("Las flores como las peonías son las mejores ¡No te rindas!") # st. warning sale en color amarillo/naranja lindo
+        st.info("Si te distrae perfecto, pero no mucho tiempo plis Diana, sabe que tiene que estudiar")
+    elif opcion == "Flores favoritas":
+        st.warning("🪷 Las flores como las peonías, tulipanes y lotos son las mejores. ¡No te rindas! 💪") # st.warning sale en color amarillo/naranja lindo
 
-      with pestaña2:
-st.subheader("El rincon de las personalidades")
-st.write("Te apasiona el MBTI o el Eneagrama? ¡Pronto hare un test interactivo aqui!")
+with pestaña2:
+    st.subheader("El rincon de las personalidades")
+    st.write("Te apasiona el MBTI o el Eneagrama? ¡Pronto haremos un test interactivo aquí!")
