@@ -5,7 +5,7 @@ st.write("Aqui voy a practicar programacion y crear cosas que me gustan")
 
 # --- AQUI CREAMOS LAS PESTAÑAS---
 pestaña1, pestaña2 = st.tabs(["✨ Mis Gustos", "🧠 Personalidades"])
-                              with pestaña 1:
+with pestaña1:
 st.subheader("¿Que serie o grupo descubriremos hoy?")
 option = st.selectbox(
   "Elige una opcion para ver un mensaje especial:",
