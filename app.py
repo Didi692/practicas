@@ -36,8 +36,8 @@ if drama_seleccionado == "Propuesta laboral":
         st.success("🏢 **Propuesta Laboral:** Una investigadora de alimentos se hace pasar por su amiga en una cita a ciegas, ¡y resulta ser su jefe! Una comedia romántica súper divertida.")
         st.balloons()
 elif drama_seleccionado == "True beauty":
-         st.info("😘 **True beauty:** Una adolescente en un nuevo instituto despues de haber recibido bulling por parte de sus demas compañeros".)
+         st.info("😘 **True beauty:** Una adolescente en un nuevo instituto despues de haber recibido bulling por parte de sus demas compañeros.")
 elif drama_seleccionado == "Mi adorable demonio":
-         st.warning(" **Mi adorable demonio**: Historia donde los protagonistas son obligados a compartir un destino, afortunadamente no se como se enamoraron son tan lindos".)
+         st.warning(" **Mi adorable demonio**: Historia donde los protagonistas son obligados a compartir un destino, afortunadamente no se como se enamoraron son tan lindos.")
 elif drama_seleccionado == "King the land":
-         st.success("🏢 **King the land**: Una chica entra a trabajar como secretaria en un famoso hotel, y de forma vergonsoza y rencorosa conoce a lo que seria su futuro amor":)
+         st.success("🏢 **King the land**: Una chica entra a trabajar como secretaria en un famoso hotel, y de forma vergonsoza y rencorosa conoce a lo que seria su futuro amor.")
