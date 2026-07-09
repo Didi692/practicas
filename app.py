@@ -24,7 +24,7 @@ with pestaña2:
     st.write("Te apasiona el MBTI o el Eneagrama? ¡Pronto haremos un test interactivo aquí!")
 
 # --- NUEVA PESTAÑA: CATÁLOGO DE K-DRAMAS ---
-with pestaña 3:
+with pestaña3:
 st.subheader("💗 Catálogo de K-Dramas Románticos")
 st.write("Selecciona un K-drama para ver una breve sinopsis y un mensaje especial.")
 
