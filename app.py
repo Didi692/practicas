@@ -11,12 +11,12 @@ with pestaña1:
         "Elige una opcion para ver un mensaje especial:",
         ["Selecciona uno...", "K-dramas Romanticos", "Tiktok", "Flores favoritas"]
     )
-if option == "K-dramas Romanticos":
+if opcion == "K-dramas Romanticos":
   st.success("¡Una excelente eleccion! Nada como una buena historia de amor.")
 st.balloons() # ¡Esto lanza globos por toda la pantalla! 🎈
-elif option == "Tiktok":
+elif opcion == "Tiktok":
   st.info("Si te distrae perfecto, pero no mucho tiempo plis Diana, sabe que tiene que estudiar")
-elif option == "Flores favoritas":
+elif opcion == "Flores favoritas":
   st.warning("Las flores como las peonías son las mejores ¡No te rindas!") # st. warning sale en color amarillo/naranja lindo
 
       with pestaña2:
